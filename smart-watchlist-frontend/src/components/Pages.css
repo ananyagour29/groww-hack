@@ -1,0 +1,194 @@
+/* ==========================================================
+   Navbar Component Pure CSS Styles
+   ========================================================== */
+
+.navbar-container {
+  position: sticky;
+  top: 16px;
+  z-index: 50;
+  padding: 0 16px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.navbar-nav {
+  background-color: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #1f2937;
+  padding: 12px 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(37, 99, 235, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.navbar-logo-icon {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.navbar-brand:hover .navbar-logo-icon {
+  transform: scale(1.05);
+}
+
+.navbar-title {
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navbar-title .text-blue {
+  color: #60a5fa;
+}
+
+.navbar-subtitle {
+  display: block;
+  font-size: 10px;
+  color: #9ca3af;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 1px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-icon-btn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.navbar-icon-btn:hover {
+  color: #ffffff;
+  background-color: #1f2937;
+}
+
+.navbar-divider {
+  height: 16px;
+  width: 1px;
+  background-color: #1f2937;
+  margin: 0 2px;
+}
+
+.navbar-logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.navbar-logout-btn:hover {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+/* ==========================================================
+   StockCard Component Pure CSS Styles
+   ========================================================== */
+
+.stock-card-container {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.stock-card-container:hover {
+  border-color: #374151;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
+
+.stock-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stock-card-info {
+  cursor: pointer;
+}
+
+.stock-card-info h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.stock-card-info:hover h4 {
+  color: #60a5fa;
+}
+
+.stock-card-info p {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+.stock-card-price-box {
+  text-align: right;
+}
+
+.stock-card-price-box span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.stock-card-price-box p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.stock-card-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
